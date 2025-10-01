@@ -6,7 +6,7 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
-ping = "Count3AcZucFDPSFBAeHkQ6AvttieKUkyJ8HiQGhQwe"
+ping = "5VvH7jtmarcgTuW1nT58GjPFhqoNPxGRbKcxWB68pm34"
 
 [registry]
 url = "https://api.apr.dev"

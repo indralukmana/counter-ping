@@ -1670,7 +1670,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@solana-program/token-2022@npm:^0.4.1":
+"@solana-program/token-2022@npm:^0.4.2":
   version: 0.4.2
   resolution: "@solana-program/token-2022@npm:0.4.2"
   peerDependencies:
@@ -2051,7 +2051,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@solana/kit@npm:^2.1.1":
+"@solana/kit@npm:^2.3.0":
   version: 2.3.0
   resolution: "@solana/kit@npm:2.3.0"
   dependencies:
@@ -3683,6 +3683,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"base-x@npm:^5.0.0":
+  version: 5.0.1
+  resolution: "base-x@npm:5.0.1"
+  checksum: 10c0/4ab6b02262b4fd499b147656f63ce7328bd5f895450401ce58a2f9e87828aea507cf0c320a6d8725389f86e8a48397562661c0bca28ef3276a22821b30f7a713
+  languageName: node
+  linkType: hard
+
 "base64-js@npm:^1.3.1":
   version: 1.5.1
   resolution: "base64-js@npm:1.5.1"
@@ -3852,6 +3859,15 @@ __metadata:
   dependencies:
     base-x: "npm:^4.0.0"
   checksum: 10c0/0d1b05630b11db48039421b5975cb2636ae0a42c62f770eec257b2e5c7d94cb5f015f440785f3ec50870a6e9b1132b35bd0a17c7223655b22229f24b2a3491d1
+  languageName: node
+  linkType: hard
+
+"bs58@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "bs58@npm:6.0.0"
+  dependencies:
+    base-x: "npm:^5.0.0"
+  checksum: 10c0/61910839746625ee4f69369f80e2634e2123726caaa1da6b3bcefcf7efcd9bdca86603360fed9664ffdabe0038c51e542c02581c72ca8d44f60329fe1a6bc8f4
   languageName: node
   linkType: hard
 
@@ -4929,73 +4945,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ping@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "ping@workspace:."
-  dependencies:
-    "@codama/cli": "npm:^1.3.1"
-    "@codama/nodes-from-anchor": "npm:^1.2.5"
-    "@codama/renderers-js": "npm:^1.3.4"
-    "@eslint/js": "npm:^9.35.0"
-    "@radix-ui/react-avatar": "npm:^1.1.10"
-    "@radix-ui/react-dialog": "npm:^1.1.15"
-    "@radix-ui/react-dropdown-menu": "npm:^2.1.16"
-    "@radix-ui/react-label": "npm:^2.1.7"
-    "@radix-ui/react-slot": "npm:^1.2.3"
-    "@solana-mobile/wallet-standard-mobile": "npm:^0.4.1"
-    "@solana/webcrypto-ed25519-polyfill": "npm:^2.3.0"
-    "@tailwindcss/vite": "npm:^4.1.13"
-    "@tanstack/react-query": "npm:^5.89.0"
-    "@types/node": "npm:^24.5.2"
-    "@types/react": "npm:^19.1.13"
-    "@types/react-dom": "npm:^19.1.9"
-    "@vitejs/plugin-react": "npm:^5.0.3"
-    "@wallet-ui/react": "npm:1.1.1"
-    "@wallet-ui/tailwind": "npm:1.1.1"
-    class-variance-authority: "npm:^0.7.1"
-    clsx: "npm:^2.1.1"
-    eslint: "npm:^9.35.0"
-    eslint-plugin-react-hooks: "npm:^5.2.0"
-    eslint-plugin-react-refresh: "npm:^0.4.20"
-    gill: "npm:0.10.2"
-    globals: "npm:^16.4.0"
-    jotai: "npm:^2.14.0"
-    lucide-react: "npm:^0.544.0"
-    next-themes: "npm:^0.4.6"
-    prettier: "npm:^3.6.2"
-    react: "npm:^19.1.1"
-    react-dom: "npm:^19.1.1"
-    react-error-boundary: "npm:^6.0.0"
-    react-router: "npm:^7.9.1"
-    sonner: "npm:^2.0.7"
-    tailwind-merge: "npm:^3.3.1"
-    tailwindcss: "npm:^4.1.13"
-    tw-animate-css: "npm:^1.3.8"
-    typescript: "npm:~5.9.2"
-    typescript-eslint: "npm:^8.44.0"
-    vite: "npm:^7.1.6"
-    vite-plugin-node-polyfills: "npm:^0.24.0"
-    vite-tsconfig-paths: "npm:^5.1.4"
-    vitest: "npm:^3.2.4"
-    ws: "npm:^8.18.3"
-  languageName: unknown
-  linkType: soft
-
-"gill@npm:0.10.2":
-  version: 0.10.2
-  resolution: "gill@npm:0.10.2"
+"gill@npm:0.11.0":
+  version: 0.11.0
+  resolution: "gill@npm:0.11.0"
   dependencies:
     "@solana-program/address-lookup-table": "npm:^0.7.0"
     "@solana-program/compute-budget": "npm:^0.8.0"
     "@solana-program/system": "npm:^0.7.0"
-    "@solana-program/token-2022": "npm:^0.4.1"
+    "@solana-program/token-2022": "npm:^0.4.2"
     "@solana/assertions": "npm:^2.1.1"
     "@solana/codecs": "npm:^2.1.1"
-    "@solana/kit": "npm:^2.1.1"
+    "@solana/kit": "npm:^2.3.0"
     "@solana/transaction-confirmation": "npm:^2.1.1"
   peerDependencies:
     typescript: ">=5"
-  checksum: 10c0/2fd91d4a2910f2d2b6804b6efa2a3c577ddfdc59000e22068160518a9a8d5479d676f59ecf3d86b71e3912d648ef9b2780e8a45d949efc83afb1c4c34bad269d
+  checksum: 10c0/41611926e43cb6218a9d7cae32ad77614819a18fc63e6a8264e335cee86ccede9a23208fd0a1d13ae83c1dbe648427140a49ff34953761d82c99ea041dbb4c3b
   languageName: node
   linkType: hard
 
@@ -6249,6 +6213,59 @@ __metadata:
   checksum: 10c0/9582c951e95eebee5434f59e426cddd228a7b97a0161a375aed4be244bd3fe8e3a31b846808ea14ef2c8a2527a6eeab7b3946a67d5979e81694654f939473ae2
   languageName: node
   linkType: hard
+
+"ping@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "ping@workspace:."
+  dependencies:
+    "@codama/cli": "npm:^1.3.1"
+    "@codama/nodes-from-anchor": "npm:^1.2.5"
+    "@codama/renderers-js": "npm:^1.3.4"
+    "@eslint/js": "npm:^9.35.0"
+    "@radix-ui/react-avatar": "npm:^1.1.10"
+    "@radix-ui/react-dialog": "npm:^1.1.15"
+    "@radix-ui/react-dropdown-menu": "npm:^2.1.16"
+    "@radix-ui/react-label": "npm:^2.1.7"
+    "@radix-ui/react-slot": "npm:^1.2.3"
+    "@solana-mobile/wallet-standard-mobile": "npm:^0.4.1"
+    "@solana/webcrypto-ed25519-polyfill": "npm:^2.3.0"
+    "@tailwindcss/vite": "npm:^4.1.13"
+    "@tanstack/react-query": "npm:^5.89.0"
+    "@types/node": "npm:^24.5.2"
+    "@types/react": "npm:^19.1.13"
+    "@types/react-dom": "npm:^19.1.9"
+    "@vitejs/plugin-react": "npm:^5.0.3"
+    "@wallet-ui/react": "npm:1.1.1"
+    "@wallet-ui/tailwind": "npm:1.1.1"
+    bs58: "npm:^6.0.0"
+    class-variance-authority: "npm:^0.7.1"
+    clsx: "npm:^2.1.1"
+    eslint: "npm:^9.35.0"
+    eslint-plugin-react-hooks: "npm:^5.2.0"
+    eslint-plugin-react-refresh: "npm:^0.4.20"
+    gill: "npm:0.11.0"
+    globals: "npm:^16.4.0"
+    jotai: "npm:^2.14.0"
+    lucide-react: "npm:^0.544.0"
+    next-themes: "npm:^0.4.6"
+    prettier: "npm:^3.6.2"
+    react: "npm:^19.1.1"
+    react-dom: "npm:^19.1.1"
+    react-error-boundary: "npm:^6.0.0"
+    react-router: "npm:^7.9.1"
+    sonner: "npm:^2.0.7"
+    tailwind-merge: "npm:^3.3.1"
+    tailwindcss: "npm:^4.1.13"
+    tw-animate-css: "npm:^1.3.8"
+    typescript: "npm:~5.9.2"
+    typescript-eslint: "npm:^8.44.0"
+    vite: "npm:^7.1.6"
+    vite-plugin-node-polyfills: "npm:^0.24.0"
+    vite-tsconfig-paths: "npm:^5.1.4"
+    vitest: "npm:^3.2.4"
+    ws: "npm:^8.18.3"
+  languageName: unknown
+  linkType: soft
 
 "pkg-dir@npm:^5.0.0":
   version: 5.0.0

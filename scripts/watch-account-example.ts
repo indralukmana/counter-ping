@@ -4,14 +4,14 @@ import { createSolanaClient } from 'gill'
 
 const example = async () => {
   const rpcUrl = 'http://127.0.0.1:8899'
-  // const wsUrl = 'ws://127.0.0.1:8900'
+  const accountAddressStr = process.argv[2] || '9o69KbfuuVKyjcu27wcxdLoSA4xvmiVozEjUGCNgD2LX'
 
   const { rpc, rpcSubscriptions } = createSolanaClient({ urlOrMoniker: rpcUrl })
 
   const stop = await watchAccount({
     rpc,
     rpcSubscriptions,
-    accountAddress: address('8AUarqzmzgDueYZjxoT7v7UkK3NrCPCUAAZ5zrYgoEya'),
+    accountAddress: address(accountAddressStr),
     commitment: 'confirmed',
     pollIntervalMs: 5000,
     wsConnectTimeoutMs: 8000,
